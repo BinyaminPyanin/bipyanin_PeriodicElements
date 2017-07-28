@@ -1,0 +1,17 @@
+1. Based on those pre-requisites https://github.com/serngawy/ODL-Messenger-Tutorial#prerequisites, setup your environment and create your own OpenDaylight application using the archetype, for the Boron-SR2 Release.
+	i. Compiling it (make sure to have correctly set up your environment; hint: ~/.m2/settings.xml)
+
+2. In the impl/ bundle:
+	i. Load this CSV file , http://php.scripts.psu.edu/djh300/cmpsc221/pt-data2.csv , by putting it under src/main/resources. Note: the CSV is also attached to the mail
+	
+3 Under src/main/java, modify the *Provider.java class to perform the following:
+	i. Parse the CSV file in Java
+	ii. Log the resulting Java objects at INFO level.
+	iii. Export those Java Objects in a JSON file, under src/main/resources
+	iv. Export those Java Objects in a XML file, under src/main/resources
+	v. Provide Unit Tests for the created functions.
+
+4. Upload the resulting code to a github repository.
+
+
+Note: If you fail to achieve step 1, it is OK, you can still create a classic Java project for the remaining steps. We're more after understanding your java code quality and knowledge than a full working solution.

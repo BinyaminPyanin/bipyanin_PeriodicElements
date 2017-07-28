@@ -1,0 +1,4 @@
+test\java\TestExportToXmlFunction.class
+test\java\TestParseCsvFileFunction.class
+test\java\TestExportToJsonFunction.class
+test\java\TestLogPeriodicTableFunction.class
